@@ -1,0 +1,88 @@
+#first {
+    padding: 120px 20px; /* Added horizontal padding for smaller screens */
+}
+
+.three img {
+    width: 100%;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 6px #624E88;
+    transform: scale(1);
+    transition: transform 0.5s; /* Specified property for clarity */
+}
+
+.three img:hover {
+    transform: scale(0.9); /* Maintain a slight hover effect */
+}
+
+.four {
+    padding-top: 120px;
+    
+}
+
+.four h2 {
+    font-size: 3.5rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    color: #272727;
+}
+
+.four h3 {
+    font-size: 3.5rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    color: #FF900E;
+}
+
+.four p {
+    font-size: 1rem; /* Responsive size */
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    color: rgba(39, 39, 39, 0.603);
+}
+
+.four button {
+    font-size: 1.25rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    color: #FFFF;
+    padding: 15px 30px;
+    background-color: #FF900E;
+    border: none;
+    margin-top: 20px;
+    transition: background-color 0.5s; /* Specified property for clarity */
+    border-radius: 8px;
+}
+
+.four button:hover {
+    background-color: #624E88;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .four h2, .four h3 {
+        font-size: 2.5rem; /* Adjust for smaller screens */
+    }
+    .four p {
+        font-size: 0.875rem; /* Adjust for smaller screens */
+    }
+    .four button {
+        font-size: 1rem; /* Adjust for smaller screens */
+    }
+    .four {
+        padding-top: 50px;
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .four h2, .four h3 {
+        font-size: 2rem; /* Further adjust for very small screens */
+    }
+    .four p {
+        font-size: 0.75rem; /* Further adjust for very small screens */
+    }
+    .four {
+        padding-top: 20px;
+        
+    }
+}

@@ -1,0 +1,76 @@
+#third {
+    padding: 120px 20px; /* Added horizontal padding for smaller screens */
+}
+
+.nine h2 {
+    font-size: 2.5rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    color: #272727;
+}
+
+.nine p {
+    font-size: 1rem; /* Responsive size */
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    color: rgba(39, 39, 39, 0.603);
+}
+
+.ten {
+    background-color: #D2E0FB;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 12px;
+    transition: background-color 0.5s; /* Specified property for clarity */
+    box-shadow: 0px 0px 6px #624E88;
+}
+
+.ten:hover {
+    background-color: #4CC9FE;
+}
+
+.ten h2 {
+    font-size: 2.5rem; /* Responsive size */
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    color: #424242;
+}
+
+.ten p {
+    font-size: 1.25rem; /* Responsive size */
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    color: #727272;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .nine h2 {
+        font-size: 2rem; /* Adjust for smaller screens */
+    }
+    .nine p {
+        font-size: 0.875rem; /* Adjust for smaller screens */
+    }
+    .ten h2 {
+        font-size: 2rem; /* Adjust for smaller screens */
+    }
+    .ten p {
+        font-size: 1rem; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .nine h2 {
+        font-size: 1.5rem; /* Further adjust for very small screens */
+    }
+    .nine p {
+        font-size: 0.75rem; /* Further adjust for very small screens */
+    }
+    .ten h2 {
+        font-size: 1.5rem; /* Further adjust for very small screens */
+    }
+    .ten p {
+        font-size: 0.875rem; /* Further adjust for very small screens */
+    }
+}
